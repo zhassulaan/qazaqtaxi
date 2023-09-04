@@ -1,0 +1,1 @@
+import{aF as t,l as r,P as a}from"./index-47b4a022.js";const m={__name:"DriverTokenRedirect",setup(n){const e=t();o();function o(){localStorage.removeItem("token"),localStorage.setItem("token",e.params.token),window.location.replace("/driver/map")}return(c,s)=>(r(),a("div"))}};export{m as default};
