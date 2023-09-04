@@ -1,0 +1,54 @@
+body {
+    font-family: Montserrat;
+    font-size: 17px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.drop-shadow {
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+}
+
+.drop-big-shadow {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.block {
+    width: 100%;
+}
+
+.font-15 {
+    font-size: 15px;
+}
+
+.font-13 {
+    font-size: 13px;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.v-btn {
+    text-transform: initial !important;
+    border-radius: 12px !important;
+}
+// .v-input {
+//     border: 1px solid grey !important;
+//     border-radius: 30px !important;
+//     overflow: hidden;
+//     &:focus {
+//         outline: 1px solid grey !important;
+//     }
+// }
+
+.one-liner {
+    -webkit-line-clamp: 1;
+}
