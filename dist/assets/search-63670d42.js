@@ -1,0 +1,1 @@
+import{t as a,r as e}from"./index-47b4a022.js";const u=a("search",()=>{const s=e(!1),t=e(null),r=e(""),o=e(""),n=e(!1);return{showPanel:s,timeoutRef:t,searchWord:r,focusInput:o,readPointer:n}},{persist:!0});export{u};

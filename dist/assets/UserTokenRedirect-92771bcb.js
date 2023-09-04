@@ -1,0 +1,1 @@
+import{aF as t,l as a,P as r}from"./index-47b4a022.js";const m={__name:"UserTokenRedirect",setup(n){const e=t();function o(){localStorage.removeItem("token"),localStorage.setItem("token",e.params.token),window.location.replace("/user/map")}return o(),(c,s)=>(a(),r("div"))}};export{m as default};
